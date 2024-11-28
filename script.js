@@ -26,21 +26,16 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Pegar todas as imagens do banner
   const bannerImages = document.querySelectorAll(".banner img");
-  
-  // Ativar a primeira imagem quando a página carregar
+
   bannerImages[0].classList.add("active");
-  
-  // Adicionar o evento de clique em cada imagem
+
   bannerImages.forEach((img) => {
     img.addEventListener("click", () => {
-      // Remover active de todas as imagens
       bannerImages.forEach((image) => {
         image.classList.remove("active");
       });
-      
-      // Adicionar active na imagem clicada
+
       img.classList.add("active");
     });
   });
