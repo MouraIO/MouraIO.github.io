@@ -322,10 +322,13 @@
 }
 .banner img {
   cursor: pointer;
+  opacity: 0.5;
   transition: all 0.3s ease;
   width: 65px;
+  filter: grayscale(100%);
 }
 .banner img.active {
+  opacity: 1;
   filter: grayscale(0%);
 }
 .banner img:hover {
