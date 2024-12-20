@@ -8,6 +8,7 @@ body {
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 1000px;
+  overflow-x: hidden;
 }
 
 /* Estilo do menu */
@@ -70,7 +71,7 @@ body {
   padding-bottom: 40px;
 }
 .introducao-conteudo h1 {
-  font-size: 42px;
+  font-size: 50px;
   color: #33303e;
   padding-bottom: 40px;
 }
@@ -233,6 +234,9 @@ body {
   font-size: 18px;
   color: #734dff;
 }
+.sub-- p {
+  color: #734dff;
+}
 .funcionalidades-acesso {
   display: flex;
   justify-content: space-between;
@@ -250,6 +254,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  cursor: pointer;
 }
 .botao-acessos img {
   width: 80%;
@@ -262,6 +267,322 @@ body {
   color: #4e4b59;
   font-size: 30px;
 }
+.texto-funcionalides {
+}
+.texto-funcionalides h1 {
+  padding-bottom: 20px;
+}
+.texto-funcionalides P {
+  padding-bottom: 20px;
+}
+
+.texto-funcionalides ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+}
+.texto-funcionalides .flex-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+/*LINHA*/
+
+.linha-cell-1-linha-2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-left: 34%;
+  margin-top: -60px;
+  padding-bottom: 40px;
+}
+
+/*QUEM TA JOGANDO?*/
+
+.quem-ta-jogando {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 10px 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.quantia-quem-ta-jogando {
+  position: relative;
+  margin-top: -90px;
+  padding-right: 45px;
+}
+.quantia-quem-ta-jogando h2 {
+  font-size: 16px;
+  color: #fa84d4;
+  padding-bottom: 20px;
+}
+.quantia-quem-ta-jogando h1 {
+  line-height: 50px;
+  padding-bottom: 20px;
+}
+.informacoes-quem-ta-jogando {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  white-space: nowrap;
+}
+.informacoes-quem-ta-jogando > div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 16px;
+  white-space: nowrap;
+}
+/*imagens quem ta jogando div 1*/
+.pessoa-flor,
+.pessoa-listrada {
+  position: absolute;
+}
+.pessoa-listrada {
+  top: -35%;
+  left: -20%;
+}
+.pessoa-flor {
+  bottom: -80%;
+  left: 40%;
+}
+/*imagens quem ta jogando div 2*/
+.pessoa-amarelo,
+.pessoa-verde,
+.auau,
+.pessoa-red,
+.chat-pessoa,
+.linha-grande-chat,
+.linha-pequena-chat {
+  position: absolute;
+}
+.pessoa-amarelo {
+  top: 47%;
+  left: 10%;
+}
+.pessoa-verde {
+  left: 38%;
+  top: 70%;
+}
+.pessoa-red {
+  right: 15%;
+  top: 60%;
+}
+.chat-pessoa {
+  right: 4%;
+  top: 42%;
+}
+.auau {
+  top: 15%;
+  right: 6%;
+}
+.linha-grande-chat {
+  right: 8.2%;
+  top: 47%;
+}
+.linha-pequena-chat {
+  right: 13%;
+  top: 52%;
+}
+/*imagens quem ta jogando div 3*/
+.pessoa-azul,
+.paisagem {
+  position: absolute;
+}
+.pessoa-azul {
+  top: 20%;
+  right: 43%;
+}
+.paisagem {
+  top: -20%;
+  right: -10%;
+}
+/*NORMAL*/
+.linha-responsiva {
+  display: none;
+}
+.texto-triangulo {
+  display: none;
+}
+.texto-triangulo-chances {
+  display: none;
+}
+.compartilhar-social {
+  position: relative;
+  width: 500px;
+  padding-top: 160px;
+}
+.compartilhamento h1 {
+  padding-top: 30px;
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+.compartilhamento p {
+  font-size: 20px;
+  color: #8c8a97;
+}
+.jane- {
+  padding-right: 40px;
+  position: relative;
+}
+.jane-cooper {
+  padding-right: 80px;
+}
+.jane- .jane-mobile {
+  display: none;
+}
+
+/*ajuda*/
+.container-ajuda-bg {
+  margin-top: 8%;
+  background: linear-gradient(
+    to bottom,
+    rgba(79, 67, 82, 0.055) 75%,
+    rgb(255, 255, 255) 25%
+  );
+}
+.ajuda-info {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 7% 0px;
+  padding-left: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.info-texto {
+}
+.info-texto h2 {
+  font-size: 18px;
+  color: #fa84d4;
+  padding-bottom: 20px;
+}
+.info-texto h1 {
+  font-size: 50px;
+  color: #33303e;
+  padding-bottom: 30px;
+}
+.info-texto p {
+  font-size: 18px;
+  color: #7a7786;
+  padding-bottom: 40px;
+}
+.btn-ajuda {
+  border: none;
+  background-color: #fa84d4;
+  border-radius: 5px;
+  padding: 15px 60px;
+}
+.btn-ajuda a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+.info-imagem {
+  position: relative;
+  cursor: pointer;
+}
+.circulo-roxo {
+  position: absolute;
+  right: 55%;
+  top: -10%;
+}
+
+.ajuda-quadrado {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 0px 10%;
+}
+.ajuda-quadrado img {
+  width: 100%;
+}
+.emoj-fundo {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: white;
+  position: absolute;
+  top: 20%;
+  left: 48%;
+  font-size: 20px; 
+  z-index: 10; /
+}
+.texto-triangulo-uxui {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  text-align: center;
+  width: 100%;
+  z-index: 10;
+  color: white; 
+  font-size: 32px;
+  font-weight: bold;
+}
+.texto-triangulo-uxui .line1 {
+  margin-bottom: 10px;
+}
+.texto-triangulo-uxui .line2 {
+  margin-left: 10px;
+}
+.ajuda-quadrado .botoes {
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  display: flex;
+  gap: 20px; 
+  z-index: 10;
+}
+.ajuda-quadrado .botoes-aprenda {
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px; 
+  z-index: 10;
+}
+.btn-aprenda {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  gap: 15px;
+}
+.btn-aprenda .icon {
+  width: 40px;
+  height: 40px;
+}
+.btn-aprenda .texts {
+  display: flex;
+  flex-direction: column;
+}
+.btn-aprenda .text-1 {
+  font-size: 12px;
+  color: #734dff;
+}
+.btn-aprenda .text-2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #734dff;
+}
+.botoes-aprenda {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+/*RESPONSIVO CELULAR*/
 
 @media (max-width: 488px) {
   body {
@@ -304,7 +625,7 @@ body {
   .introducao-conteudo p {
     width: 500px;
     font-size: 14px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
   }
   .introducao-imagem {
     order: 0;
@@ -327,7 +648,7 @@ body {
   .introducao-imagem-mobile .imagem-complemento {
     position: absolute;
     top: 0;
-    left: 64%;
+    left: 65%;
     transform: translateX(-50%);
     width: 80%;
     z-index: 1;
@@ -351,7 +672,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    padding: 0 15px;
+    padding-left: 10%;
   }
 
   .passo {
@@ -387,6 +708,9 @@ body {
 
   /*FUNCIONALIDADES*/
 
+  .funcionalidades {
+    margin-left: 0%;
+  }
   .funcionalidades-acesso {
     display: flex;
     flex-direction: column;
@@ -412,9 +736,9 @@ body {
 
   .botao-acessos {
     display: flex;
-    overflow-x: scroll; /* Permite rolagem horizontal */
-    scroll-snap-type: x mandatory; /* Ajuda no scroll suave */
-    -webkit-overflow-scrolling: touch; /* Melhora o scroll no iOS */
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
     gap: 10px;
     padding: 10px;
     scrollbar-width: none;
@@ -433,7 +757,10 @@ body {
     order: 3;
     text-align: center;
   }
-
+  .texto-funcionalides p {
+    font-size: 18px;
+    color: #8c8a97;
+  }
   .funcionalidades-acesso-opcoes {
     display: flex;
     flex-direction: column;
@@ -441,5 +768,167 @@ body {
   }
   .funcionalides-sub p {
     display: none;
+  }
+  .texto-funcionalides .flex-lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .texto-funcionalides .flex-lista li {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+  .texto-funcionalides .flex-lista .check {
+    margin-right: 10px;
+  }
+  .flex-lista {
+    color: #8c8a97;
+  }
+  .imagem-atividades {
+    display: block;
+    margin-left: -16%;
+    margin-top: 30px;
+    width: 120%;
+  }
+  .linha-cell-1-linha-2 {
+    display: none;
+  }
+
+  /*QUEM TA JOGANDO*/
+
+  .quem-ta-jogando {
+    position: relative;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+  .quantia-quem-ta-jogando br {
+    display: block;
+  }
+  .quantia-quem-ta-jogando h2 {
+    margin-top: 45%;
+    font-size: 18px;
+    color: #fa84d4;
+    padding-bottom: 20px;
+  }
+  .quantia-quem-ta-jogando h1 {
+    font-size: 30px;
+    color: #33303e;
+    padding-bottom: 30px;
+  }
+  .informacoes-quem-ta-jogando {
+    color: #8c8a97;
+    gap: 40px;
+    padding-bottom: 40px;
+  }
+  .linha-responsiva {
+    display: block;
+    position: absolute;
+    top: -50px;
+  }
+  .jane-cooper {
+    display: none;
+  }
+  .compartilhar-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .compartilhar-social h1 {
+    display: none;
+  }
+  .compartilhar-social p {
+    display: none;
+  }
+  .seta {
+    display: block;
+    width: 10%;
+    padding-bottom: 40px;
+  }
+
+  .texto-triangulo {
+    display: block;
+  }
+  .texto-triangulo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    padding-bottom: 40px;
+    color: #4e4b59;
+  }
+  .texto-triangulo .line1 {
+    margin-bottom: 10px;
+  }
+  .texto-triangulo .line2 {
+    margin-left: 10px;
+  }
+  .texto-triangulo {
+    display: block;
+  }
+  .texto-triangulo-chances {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    color: #8c8a97;
+  }
+
+  .texto-triangulo-chances .line1 {
+    margin-bottom: 10px;
+  }
+
+  .texto-triangulo-chances .line2 {
+    margin-left: 10px;
+  }
+  .pessoa-flor,
+  .pessoa-listrada,
+  .pessoa-listrada,
+  .pessoa-flor,
+  .pessoa-amarelo,
+  .pessoa-verde,
+  .auau,
+  .pessoa-red,
+  .chat-pessoa,
+  .linha-grande-chat,
+  .linha-pequena-chat,
+  .pessoa-amarelo,
+  .pessoa-verde,
+  .pessoa-red,
+  .chat-pessoa,
+  .auau,
+  .linha-grande-chat,
+  .linha-pequena-chat,
+  .pessoa-azul,
+  .paisagem,
+  .pessoa-azul,
+  .paisagem {
+    display: none;
+  }
+  .jane- .jane-cooper {
+    display: none;
+  }
+  .jane- .jane-mobile {
+    display: block;
+    padding-top: 40px;
+    padding-left: 20px;
+  }
+
+  /*AJUDA*/
+
+  .ajuda-info {
+    flex-direction: column;
+  }
+  .info-imagem {
+    display: flex;
+  }
+  .info-imagem img {
+    width: 190%;
   }
 }
