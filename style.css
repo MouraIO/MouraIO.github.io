@@ -7,10 +7,12 @@
 body {
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 1000px;
   overflow-x: hidden;
 }
 
+.geral-container {
+  padding-bottom: 30px;
+}
 /* Estilo do menu */
 .menu-bg {
 }
@@ -234,6 +236,21 @@ body {
   font-size: 18px;
   color: #734dff;
 }
+.subb-- {
+  position: relative;
+}
+.confete, 
+.nuvem {
+  position: absolute;
+}
+.confete {
+ margin-top: -30px;
+ right: 25%;
+}
+.nuvem {
+  margin-top: 30px;
+  right:8.5%;
+}
 .sub-- p {
   color: #734dff;
 }
@@ -257,7 +274,7 @@ body {
   cursor: pointer;
 }
 .botao-acessos img {
-  width: 80%;
+  width: 120%;
 }
 .texto-funcionalides {
   width: 400px;
@@ -582,6 +599,273 @@ body {
   gap: 20px;
   justify-content: center;
 }
+.texto-escalonado {
+  display: none;
+}
+.texto-escalonado-comunidade {
+display: none;
+}
+.roxo-mobile { 
+  display: none;
+}
+.texto-escalonado-ux {
+  display: none;
+}
+.nuvem-mobile2,
+.nuvem-mobile {
+  display: none;
+}
+.container-duvida {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 5% 10%;
+}
+.container-duvidas {
+  max-width: 400px;
+  padding: 10px;
+ margin-right: 90px;
+}
+
+.accordion {
+  background-color: transparent;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.accordion-header {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  cursor: pointer;
+  border: none;
+}
+
+.toggle-btn {
+  font-size: 42px;
+  color: #FF9BE3;
+  transition: transform 0.3s ease;
+  margin-right: 15px;
+}
+
+.accordion-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #5F5C6B;
+  flex-grow: 1;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0;
+  background-color: transparent;
+}
+
+.accordion-content p {
+  color: #7A7786;
+  line-height: 1.6;
+  padding: 0 0 15px 0;
+}
+
+.accordion-item.active .accordion-content {
+  max-height: 200px;
+}
+.ajuda- {
+  position: relative;
+  margin-top: 40px;
+  margin-left: 15%;
+}
+.interrogacao {
+  display: block;
+  position: absolute;
+}
+.ajuda- h2 {
+  font-size: 16px;
+color: #FA84D4;
+padding-bottom: 30px;
+}
+.ajuda- h1 {
+  font-size: 42px;
+  padding-bottom: 20px;
+}
+.ajuda- p {
+  font-size: 20px;
+  color: #5F5C6B;
+  padding-bottom: 30px;
+}
+.ajuda-link {
+  display: inline-flex; 
+  align-items: center;
+  gap: 10px; 
+}
+.flex-lista li {
+ margin-bottom: 20px;
+  color: #7A7786;
+
+}
+.ajuda- img {
+  width: 20px; 
+  height: 20px; 
+  vertical-align: middle; 
+}
+
+.ajuda- a {
+  padding-left: 20px;
+  text-decoration: none; 
+  color: #8C8A97; 
+  font-size: 16px; 
+}
+.email-chat {
+  padding-bottom: 40px;
+}
+.sociais {
+display: flex;
+flex-direction: row;
+gap: 40px;
+}
+.sociais img {
+  width: 40px;
+  height: 40px;
+}
+.sociais-mobile, .email-chat-mobile {
+  display: none;
+}
+.redes {
+  display: none;
+}
+
+/*linha*/
+.linha-footer {
+  width: 80%; 
+  max-width: 100%; 
+  margin: auto;
+  padding: 0px 10%;
+  height: 3px; 
+  background-color: #0000001f; 
+ 
+}
+
+/*RODAPE*/
+
+.container-rodape {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 5% 10%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.esquerda-rodape {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: #A38AFD;
+}
+.meio-rodape h1 {
+font-size: 16px;
+color: #8C8A97;
+}
+.direita-rodape {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 8px;
+  color: #8C8A97;
+}
+.nuvem-roxa, .nuvem-roxaa {
+  display: block;
+  width: 10px;
+  height: 10px;
+}
+.nuvem-roxa {
+  margin-top: 5%;
+ margin-left: 40%;
+}
+.nuvem-roxaa {
+  margin-top: -15%;
+margin-left: -40%;
+}
+.interrogacao {
+  width: 250px !important;
+  height: 250px !important;
+  margin-left: -280px;
+  margin-top: -170px;
+}
+.funcionalides-imagens-acesso {
+  position: relative;
+  width: 100%;
+  height: 400px; 
+}
+
+.funcionalides-imagens-acesso img {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  max-width: 110%;  
+  max-height: 110%; 
+  object-fit: contain;
+}
+.botao-acessos-tablete {
+  display: none;
+}
+.accordion-content {
+  display: none;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.accordion-content.active {
+  display: block;
+  max-height: 500px; /* Ajuste conforme o tamanho do seu conteúdo */
+  opacity: 1;
+}
+
+.accordion-item {
+  position: relative;
+}
+
+.accordion-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.toggle-btn {
+  user-select: none;
+}
+.accordion-content {
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.accordion-content.active {
+  visibility: visible;
+  height: auto;
+  overflow: visible;
+  padding: inherit;
+  flex-wrap: wrap;
+}
+
+.accordion-header .toggle-btn {
+  cursor: pointer;
+  user-select: none;
+}
 /*RESPONSIVO CELULAR*/
 
 @media (max-width: 488px) {
@@ -600,7 +884,7 @@ body {
   section {
     text-align: center;
   }
-
+ 
   /* Introdução */
   .introducao {
     flex-direction: column;
@@ -714,16 +998,18 @@ body {
   .funcionalidades-acesso {
     display: flex;
     flex-direction: column;
+    margin-left: 80px;
   }
 
   .funcionalides-imagens-acesso {
     order: 4;
+    margin-left: -60px;
   }
 
   .funcionalides-sub {
     order: 1;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: -40px;
   }
 
   .botao-acessos {
@@ -731,7 +1017,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: -30px;
   }
 
   .botao-acessos {
@@ -783,11 +1069,10 @@ body {
     margin-right: 10px;
   }
   .flex-lista {
-    color: #8c8a97;
+    color: #7A7786;
   }
   .imagem-atividades {
     display: block;
-    margin-left: -16%;
     margin-top: 30px;
     width: 120%;
   }
@@ -837,6 +1122,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px;
   }
   .compartilhar-social h1 {
     display: none;
@@ -879,11 +1165,9 @@ body {
     font-size: 24px;
     color: #8c8a97;
   }
-
   .texto-triangulo-chances .line1 {
     margin-bottom: 10px;
   }
-
   .texto-triangulo-chances .line2 {
     margin-left: 10px;
   }
@@ -929,6 +1213,232 @@ body {
     display: flex;
   }
   .info-imagem img {
-    width: 190%;
+    width: 200%;
+  }
+  .info-texto h1, p {
+    display: none;
+  }
+  .info-texto h2 {
+   text-align: center;
+   margin-left: -40px;
+  }
+  .texto-escalonado {
+    display: block;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: -40px;
+  }
+  
+  .texto-escalonado div:nth-child(1) {
+    margin-bottom: 5px;
+  }
+  .texto-escalonado div:nth-child(2) {
+    margin-bottom: 5px;
+  }
+.texto-escalonado div:nth-child(3) {
+    margin-bottom: 40px;
+  }
+
+  .texto-escalonado-comunidade {
+    display: block;
+  }
+  .texto-escalonado-comunidade {
+    text-align: center;
+    color: #7A7786;
+    font-size: 18px;
+    padding-bottom: 40px;
+    margin-left: -40px;
+  }
+  .btn-ajuda {
+   margin-left: -50px;
+   margin-bottom: 70px;
+  }
+  .botoes-aprenda {
+  flex-direction: column;
+  position: relative;
+  top: 70%;
+}
+  .fundo-roxo {
+ display: none;
+  }
+  .roxo-mobile {
+    display: block;
+  }
+  .emoj-fundo {
+    top: 60px;
+    margin-left: -9px;
+  }
+  .texto-escalonado-ux {
+    display: block;
+    position: absolute;
+  }
+  .texto-triangulo-uxui {
+    display: none;
+  }
+  .ajuda-quadrado .texto-escalonado-ux {
+    position: absolute;
+    top: 30%; 
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    z-index: 10;
+    width: 100%; 
+    font-weight: bold;
+  }
+
+  .ajuda-quadrado .texto-escalonado-ux div {
+    margin-left: 0; 
+  }
+  .nuvem-mobile {
+    display: block;
+    position: absolute;
+    margin-top: -100%;
+    left: -90px;
+    max-width: 60px;
+    z-index: 5;
+    left: 20px;
+  }
+.container-duvida {
+  flex-direction: column;
+} 
+.container-duvidas {
+  padding-bottom: 80px;
+}
+.sociais-mobile, .email-chat-mobile {
+  display: block;
+}
+.email-chat ,.sociais {
+  display: none;
+}
+.email-chat-mobile{
+ text-align: center;
+}
+.email-chat-mobile a {
+  margin-left: 20px;
+ text-decoration: none;
+ color: #8C8A97;
+ font-size: 22px;
+}
+.sociais-mobile {
+  display: flex;
+  gap: 40px;
+ margin-top: 80px;
+margin-left: 120px;
+}
+.redes {
+  display: block;
+}
+.container-rodape {
+  flex-direction: column;
+}
+.esquerda-rodape {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+.meio-rodape {
+  padding-bottom: 40px;
+}
+.direita-rodape {
+  padding-bottom: 80px;
+}
+.nuvem-roxa, .nuvem-roxaa {
+  display: none;
+}
+.confete, 
+.nuvem {
+  display: none;
+}
+}
+
+
+
+@media (max-width: 1054px) {
+  .menu .container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 30px 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .introducao-conteudo h1 {
+font-size: 32px;
+  }
+  .introducao-conteudo span {
+    color: #5b2dff;
+  }
+  .introducao-imagem-desktop img {
+    width: 80%;
+  }
+  .introducao-imagem-desktop {
+margin-right: -30%;
+  }
+  .mouse-imagem {
+    display: none;
+  }
+  .botao-acessos {
+    display: none;
+  }
+  .botao-acessos-tablete {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+
+  }
+  .botao-acessos-tablete img {
+    width: 200%;
+  }
+  .funcionalidades-acesso-opcoes {
+    margin-left: -80px;
+  }
+  .linha-cell-1-linha-2 {
+    display: none;
+  }
+  .compartilhar-social {
+display: none;
+  }
+  .ajuda-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .info-imagem {
+    padding-top: 60px;
+    width: 100%;
+   display: flex;
+   gap: 60px;
+  }
+  .btn-ajuda {
+    margin-left: auto;
+  }
+  .info-texto {
+    width: 100%;
+    text-align: center;
+  }
+  .info-texto h1 {
+    font-size: 40px;
+  }
+  .ajuda-quadrado {
+  max-width: 100%;
+  height: 100%;
+  margin: auto;
+  }
+  .botoes-aprenda {
+    margin-bottom: -50px;
+  }
+  .container-duvidas {
+    max-width: 200px;
+    padding: 10px;
+   margin-right: 90px;
   }
 }
