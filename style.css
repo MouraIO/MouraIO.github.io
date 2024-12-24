@@ -938,7 +938,7 @@ margin-left: -40%;
     z-index: 1;
   }
   .iphone-introducao-mobile {
-    margin-left: 30%;
+    margin-left: 25%;
     padding-bottom: 40px;
   }
 
@@ -1251,7 +1251,8 @@ margin-left: -40%;
     margin-left: -40px;
   }
   .btn-ajuda {
-   margin-left: -50px;
+    width: 60%;
+   margin-right: 40px;
    margin-bottom: 70px;
   }
   .botoes-aprenda {
@@ -1267,7 +1268,7 @@ margin-left: -40%;
   }
   .emoj-fundo {
     top: 60px;
-    margin-left: -9px;
+   margin-left: -10px;
   }
   .texto-escalonado-ux {
     display: block;
@@ -1305,7 +1306,7 @@ margin-left: -40%;
   flex-direction: column;
 } 
 .container-duvidas {
-  padding-bottom: 80px;
+  padding-bottom: 0px;
 }
 .sociais-mobile, .email-chat-mobile {
   display: block;
@@ -1353,6 +1354,9 @@ margin-left: 120px;
 .confete, 
 .nuvem {
   display: none;
+}
+.accordion {
+  padding-bottom: 80px;
 }
 }
 
