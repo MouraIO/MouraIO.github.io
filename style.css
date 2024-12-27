@@ -868,7 +868,7 @@ margin-left: -40%;
 }
 /*RESPONSIVO CELULAR*/
 
-@media (max-width: 488px) {
+@media (max-width: 850px) {
   body {
     max-width: 100%;
     height: auto;
